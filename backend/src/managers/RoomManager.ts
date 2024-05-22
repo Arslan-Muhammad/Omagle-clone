@@ -13,6 +13,7 @@ export class RoomManager {
   }
 
   createRoom(user1: User, user2: User) {
+    console.log("creatin room");
     const roomId = this.generate().toString();
     this.rooms.set(roomId.toString(), {
       user1,

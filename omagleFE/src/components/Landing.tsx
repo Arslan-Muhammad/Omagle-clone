@@ -62,7 +62,7 @@ export const Landing = () => {
     <Room
       name={name}
       localAudioTrack={localAudiTack}
-      localVideotrack={localVideoTrack}
+      localVideoTrack={localVideoTrack}
     />
   );
 };
